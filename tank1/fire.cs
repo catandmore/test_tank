@@ -9,12 +9,12 @@ public class fire : MonoBehaviour
     private GameObject bullet;
     private GameObject position;
     private GameObject clone;
-    // Use this for initialization
+    
     void Start()
     {
         bullet = GameObject.Find("bullet");
         position = GameObject.Find("GameObject");
-        //_camera = GameObject.Find("Camera").GetComponent<Camera>();
+        
     }
 
     // Update is called once per frame
